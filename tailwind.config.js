@@ -6,11 +6,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "app-main": "",
-        "app-red": "",
-        "app-blue": "",
-        "app-grey": "",
-        "app-white": "",
+        "app-main": "#6b21a8",
+        "app-red": "#dc2626",
+        "app-blue": "#0284c7",
+        "app-grey": "#9ca3af",
+        "app-white": "#f8fafc",
       },
     },
     fontFamily: {
