@@ -29,9 +29,13 @@ function App() {
             Discover local businesses and fun spots with ease. Our tool helps you find the best places around you quickly and effortlessly, wherever you are.
             </p>
             <div className="flex justify-center flex-wrap gap-6">
-              <button type="button" className="btn btn-blue flex items-center gap-3">
+              <button type="button" className="btn btn-blue flex items-center gap-3 hover:bg-app-white hover:text-black">
                 <p>Get it on Appstore</p>
                 <i className="fab fa-app-store text-2xl"></i>
+              </button>
+              <button type="button" className="btn btn-green flex items-center gap-3 hover:bg-app-white hover:text-black">
+                <p>Get it on Playstore</p>
+                <i className="fa-brands fa-google-play text-2xl"></i>
               </button>
             </div>
           </div>
