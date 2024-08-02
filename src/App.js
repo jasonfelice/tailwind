@@ -15,10 +15,22 @@ function App() {
             </li>
           </ul>
           <div className="flex sm:hidden flex-1 justify-end ">
-            <i class="fa-solid fa-bars"></i>
+            <i class="text-2xl fa-solid fa-bars"></i>
           </div>
         </nav>
       </header>
+      <section className="relative">
+        <div className="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt28">
+          <div className="flex flex-1 flex-col items-center lg:items-start">
+            <h2 className="text-app-blue text-3xl md:text-4 lg:text-5px text-center lg:text-left mb-6">
+              Locate Fun Places Fast
+            </h2>
+            <p className="text-app-grey text-lg text-center lg:text-left mb-6">
+            Discover local businesses and fun spots with ease. Our tool helps you find the best places around you quickly and effortlessly, wherever you are.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
