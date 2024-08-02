@@ -14,6 +14,9 @@ function App() {
               <button type="button" className="bg-app-red text-white rounded-md px-7 py-3 uppercase">Login</button>
             </li>
           </ul>
+          <div className="flex sm:hidden flex-1 justify-end ">
+            <i class="fa-solid fa-bars"></i>
+          </div>
         </nav>
       </header>
     </div>
