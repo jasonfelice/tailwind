@@ -15,7 +15,7 @@ function App() {
             </li>
           </ul>
           <div className="flex sm:hidden flex-1 justify-end ">
-            <i class="text-2xl fa-solid fa-bars"></i>
+            <i className="text-2xl fa-solid fa-bars"></i>
           </div>
         </nav>
       </header>
@@ -28,6 +28,12 @@ function App() {
             <p className="text-app-grey text-lg text-center lg:text-left mb-6">
             Discover local businesses and fun spots with ease. Our tool helps you find the best places around you quickly and effortlessly, wherever you are.
             </p>
+            <div className="flex justify-center flex-wrap gap-6">
+              <button type="button" className="btn btn-blue flex items-center gap-3">
+                <p>Get it on Appstore</p>
+                <i className="fab fa-app-store text-2xl"></i>
+              </button>
+            </div>
           </div>
         </div>
       </section>
