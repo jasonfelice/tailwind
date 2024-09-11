@@ -57,6 +57,26 @@ function App() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sapiente totam corporis non, voluptatem inventore labore! Enim sit maiores quibusdam!
           </p>
         </div>
+        {/* Feature #1 */}
+        <div className="relative mt-20 lg:mt-24">
+          <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+            {/* Image */}
+            <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+              <img className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src={hero} alt="Hero" />
+            </div>
+            {/* Content */}
+            <div className="flex flex-1 flex-col items-center lg:items-start">
+              <h1 className="text-3xl text-app-blue">First</h1>
+              <p className="text-app-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore eius, adipisci animi autem beatae saepe   ducimus similique provident odio iusto?
+              </p>
+              <button type="button" className="btn btn-green flex items-center gap-3 hover:bg-app-white hover:text-black">
+                <p>Get it on Playstore</p>
+                <i className="fa-brands fa-google-play text-2xl"></i>
+              </button>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );
