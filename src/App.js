@@ -20,6 +20,7 @@ function App() {
           </div>
         </nav>
       </header>
+      {/* Hero Section */}
       <section className="relative">
         <div className="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt28">
           <div className="flex flex-1 flex-col items-center lg:items-start">
@@ -46,6 +47,16 @@ function App() {
         </div>
         {/* Rounded Rectangle */}
         <div className="hidden md:block overflow-hidden bg-app-red rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-28" />
+      </section>
+      {/* Features section */}
+      <section className="bg-app-white py-20 mt-20 lg:mt60">
+        {/* Heading */}
+        <div classNmae="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+          <h1 className="text-3xl text-center text-app-blue">Features</h1>
+          <p className="text-center text-app-grey mt-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sapiente totam corporis non, voluptatem inventore labore! Enim sit maiores quibusdam!
+          </p>
+        </div>
       </section>
     </div>
   );
