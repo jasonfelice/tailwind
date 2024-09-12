@@ -124,6 +124,31 @@ function App() {
           </div>
         </div>
       </section>
+      {/* Download Section */}
+      <section className="py-20 mt-20">
+        {/* Heading */}
+        <div classNmae="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+          <h1 className="text-3xl text-center text-app-blue">Download the app</h1>
+          <p className="text-center text-app-grey mt-4">
+            Discover the best of your community with ease using our tool. Explore unique features designed to enhance your local adventures:
+          </p>
+        </div>
+        {/* Cards */}
+        <div className="container grid grid-col-1 mg:grid-col-2 lg:grid-col-3 gap-16 max-w-screen-lg mt-16">
+          {/* Card 1 */}
+          <div className="flex flex-col rounded-md shadow-md">
+            <div className="p-6 flex flex-col items-center">
+              <img src="https://www.google.com/chrome/static/images/chrome-logo-m100.svg" alt="" />
+              <h3 className="mt-5 mb-2 text-app-blue text-lg">Add to Chrome</h3>
+              <p className="mb-2 text-app-grey font-light"></p>
+            </div>
+            <hr className="border-b border-app-white" />
+            <button type="button" className="btn btn-green flex items-center gap-3 hover:bg-app-white hover:text-black">
+              Add to Chrome
+            </button>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
