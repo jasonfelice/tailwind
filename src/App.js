@@ -1,5 +1,8 @@
 import './App.css';
 import hero from './assets/hero.svg';
+import feat1 from './assets/feat1.svg';
+import feat2 from './assets/feat2.svg';
+import feat3 from './assets/feat3.svg';
 
 function App() {
   return (
@@ -54,7 +57,7 @@ function App() {
         <div classNmae="sm:w-3/4 lg:w-5/12 mx-auto px-2">
           <h1 className="text-3xl text-center text-app-blue">Features</h1>
           <p className="text-center text-app-grey mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sapiente totam corporis non, voluptatem inventore labore! Enim sit maiores quibusdam!
+            Discover the best of your community with ease using our tool. Explore unique features designed to enhance your local adventures:
           </p>
         </div>
         {/* Feature #1 */}
@@ -62,19 +65,62 @@ function App() {
           <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
             {/* Image */}
             <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-              <img className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src={hero} alt="Hero" />
+              <img className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src={feat1} alt="Hero" />
             </div>
             {/* Content */}
             <div className="flex flex-1 flex-col items-center lg:items-start">
-              <h1 className="text-3xl text-app-blue">First</h1>
+              <h1 className="text-3xl text-app-blue">Spotlight Stories</h1>
               <p className="text-app-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore eius, adipisci animi autem beatae saepe   ducimus similique provident odio iusto?
+                Enjoy exclusive insights and behind-the-scenes looks at your favorite local spots.
               </p>
               <button type="button" className="btn btn-green flex items-center gap-3 hover:bg-app-white hover:text-black">
-                <p>Get it on Playstore</p>
-                <i className="fa-brands fa-google-play text-2xl"></i>
+                <p>Learn More</p>
               </button>
             </div>
+            {/* Rounded Rectangle */}
+            <div className="hidden lg:block overflow-hidden bg-app-blue rounded-r-full absolute h-80 w-2/4 left-0 bottom-26" />
+          </div>
+        </div>
+          {/* Feature #2 */}
+        <div className="relative mt-20 lg:mt-24">
+          <div className="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
+            {/* Image */}
+            <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+              <img className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src={feat2} alt="Hero" />
+            </div>
+            {/* Content */}
+            <div className="flex flex-1 flex-col items-center lg:items-start">
+              <h1 className="text-3xl text-app-blue">Live Local Events Calendar</h1>
+              <p className="text-app-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+                Find and filter upcoming events to keep your social calendar full.
+              </p>
+              <button type="button" className="btn btn-green flex items-center gap-3 hover:bg-app-white hover:text-black">
+                <p>Learn More</p>
+              </button>
+            </div>
+            {/* Rounded Rectangle */}
+            <div className="hidden lg:block overflow-hidden bg-app-green rounded-l-full absolute h-80 w-2/4 right-0 bottom-26" />
+          </div>
+        </div>
+         {/* Feature #3 */}
+         <div className="relative mt-20 lg:mt-24">
+          <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+            {/* Image */}
+            <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+              <img className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src={feat3} alt="Hero" />
+            </div>
+            {/* Content */}
+            <div className="flex flex-1 flex-col items-center lg:items-start">
+              <h1 className="text-3xl text-app-blue">Customized Discovery Map</h1>
+              <p className="text-app-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+                Save and organize your favorite places, and share your personalized map with friends.
+              </p>
+              <button type="button" className="btn btn-green flex items-center gap-3 hover:bg-app-white hover:text-black">
+                <p>Learn More</p>
+              </button>
+            </div>
+            {/* Rounded Rectangle */}
+            <div className="hidden lg:block overflow-hidden bg-app-red rounded-r-full absolute h-80 w-2/4 left-0 bottom-26" />
           </div>
         </div>
       </section>
